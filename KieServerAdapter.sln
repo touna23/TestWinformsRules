@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KieServerAdapter", "KieServerAdapter\KieServerAdapter.csproj", "{DE54E08B-D2C4-4100-8A73-826BBB763016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KieServerAdapter.Test", "KieServerAdapter.Test\KieServerAdapter.Test.csproj", "{0E3C9591-CF3E-4D0A-AE0A-BD52D2A65CE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{26DB91ED-45AF-4330-957D-35EB3F3B431D}"
+	ProjectSection(SolutionItems) = preProject
+		Files\drools-logo.png = Files\drools-logo.png
+		Files\DroolsLogo210px.png = Files\DroolsLogo210px.png
+		Files\nuget.bat = Files\nuget.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42E30126-2830-41EC-B504-998554A35E5A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KieAdapterConsol", "KieAdapterConsol\KieAdapterConsol.csproj", "{15583EBD-436E-4FB0-8A39-91AEAACBF803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KieForms", "KieForms\KieForms.csproj", "{4DA1D46C-E8DA-4DBF-84E4-8ED41EC31BCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE54E08B-D2C4-4100-8A73-826BBB763016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE54E08B-D2C4-4100-8A73-826BBB763016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE54E08B-D2C4-4100-8A73-826BBB763016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE54E08B-D2C4-4100-8A73-826BBB763016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3C9591-CF3E-4D0A-AE0A-BD52D2A65CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3C9591-CF3E-4D0A-AE0A-BD52D2A65CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3C9591-CF3E-4D0A-AE0A-BD52D2A65CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3C9591-CF3E-4D0A-AE0A-BD52D2A65CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15583EBD-436E-4FB0-8A39-91AEAACBF803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15583EBD-436E-4FB0-8A39-91AEAACBF803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15583EBD-436E-4FB0-8A39-91AEAACBF803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15583EBD-436E-4FB0-8A39-91AEAACBF803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA1D46C-E8DA-4DBF-84E4-8ED41EC31BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA1D46C-E8DA-4DBF-84E4-8ED41EC31BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA1D46C-E8DA-4DBF-84E4-8ED41EC31BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA1D46C-E8DA-4DBF-84E4-8ED41EC31BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
